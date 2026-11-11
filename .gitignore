@@ -1,5 +1,23 @@
-.vscode/
-.git-push.sh
-z-backup/
-.VSCodeCounter/*
+# Local .terraform directories
+.terraform/
 
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash[0-9]?.log
+
+# Exclude sensitive variables files
+*.tfvars
+*.tfvars.json
+
+# Ignore override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# VS Code settings
+.vscode/
